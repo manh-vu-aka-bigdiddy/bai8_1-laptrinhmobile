@@ -27,4 +27,5 @@ Quản lý trạng thái đăng nhập bằng Context API
 ## demo giao diện 
 ![login](z7620892940334_385ca640c06b7f222d8c8c0f46abc765.jpg)
 ![home](z7620892994842_363247c48e278f7ee839187682018499.jpg)
+![account](z7620893054547_8f5f0f31223b11a657d5b95c97ac4b22.jpg)
 
