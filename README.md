@@ -1,50 +1,26 @@
-# Welcome to your Expo app 👋
+Vũ Tiến Mạnh - 23810310375 
+Đây là ứng dụng mobile đơn giản được xây dựng bằng React Native (Expo) nhằm minh họa cách sử dụng React Navigation và React Context API để tạo luồng đăng nhập cơ bản.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Ứng dụng gồm màn hình Sign In để người dùng đăng nhập. Sau khi đăng nhập thành công, hệ thống chuyển sang giao diện chính gồm Bottom Tab Navigation với hai màn hình: Home (Explorer) và Profile (Account). Tại màn hình Profile, người dùng có thể Sign Out để quay lại màn hình đăng nhập.
 
-## Get started
+Công nghệ sử dụng
 
-1. Install dependencies
+React Native (Expo)
 
-   ```bash
-   npm install
-   ```
+React Navigation
 
-2. Start the app
+React Context API
 
-   ```bash
-   npx expo start
-   ```
+TypeScript
 
-In the output, you'll find options to open the app in a
+Chức năng chính
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Đăng nhập đơn giản
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Điều hướng giữa các màn hình bằng Stack Navigation
 
-## Get a fresh project
+Điều hướng bằng Bottom Tab Navigation
 
-When you're ready, run:
+Quản lý trạng thái đăng nhập bằng Context API
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Đăng xuất và quay lại màn hình đăng nhập
